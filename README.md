@@ -1,7 +1,7 @@
 "# Chef-Companion-Bot" 
 ## README
 
-# LLM Chatbot for Recipe Information
+# LLM Chatbot for Recipe Generation
 
 This project creates a conversational chatbot using a large language model (LLM) to interact with a dataset of Indian recipes. The chatbot can answer questions about recipes, ingredients, preparation times, and instructions. This implementation uses the Mistral-7B-Instruct-v0.1 model for the language model and integrates various tools for data handling, embeddings, and serving the chatbot via a web interface.
 
@@ -84,8 +84,3 @@ The pipeline configuration is saved and loaded from `/content/drive/MyDrive/llm_
 
 ### Web Interface
 Access the chatbot via the web interface provided by the FastAPI server. The HTML file included in the script sets up a simple chat UI.
-
-
----
-
-This README provides an overview of the setup and usage of the LLM chatbot for recipe information. It covers the installation of dependencies, preparation of the dataset, model initialization, and serving the chatbot via a web interface.
